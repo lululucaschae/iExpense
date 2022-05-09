@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		6150146C2824F04B00F294A9 /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150146B2824F04B00F294A9 /* iExpenseApp.swift */; };
-		6150146E2824F04B00F294A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150146D2824F04B00F294A9 /* ContentView.swift */; };
 		615014702824F04D00F294A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6150146F2824F04D00F294A9 /* Assets.xcassets */; };
 		615014732824F04D00F294A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615014722824F04D00F294A9 /* Preview Assets.xcassets */; };
+		6150148028253B2D00F294A9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150147F28253B2D00F294A9 /* MainView.swift */; };
+		6150148228253B3600F294A9 /* SingleExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150148128253B3600F294A9 /* SingleExpense.swift */; };
+		6150148428253BF300F294A9 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150148328253BF300F294A9 /* Expenses.swift */; };
+		6150148628253F8E00F294A9 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6150148528253F8E00F294A9 /* AddView.swift */; };
+		6150148A2828AFA400F294A9 /* SheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615014892828AFA400F294A9 /* SheetController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		615014682824F04B00F294A9 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6150146B2824F04B00F294A9 /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
-		6150146D2824F04B00F294A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6150146F2824F04D00F294A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		615014722824F04D00F294A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6150147F28253B2D00F294A9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6150148128253B3600F294A9 /* SingleExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExpense.swift; sourceTree = "<group>"; };
+		6150148328253BF300F294A9 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		6150148528253F8E00F294A9 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		615014892828AFA400F294A9 /* SheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,12 @@
 			isa = PBXGroup;
 			children = (
 				6150146B2824F04B00F294A9 /* iExpenseApp.swift */,
-				6150146D2824F04B00F294A9 /* ContentView.swift */,
 				6150146F2824F04D00F294A9 /* Assets.xcassets */,
+				6150147F28253B2D00F294A9 /* MainView.swift */,
+				6150148528253F8E00F294A9 /* AddView.swift */,
+				615014892828AFA400F294A9 /* SheetController.swift */,
+				6150148128253B3600F294A9 /* SingleExpense.swift */,
+				6150148328253BF300F294A9 /* Expenses.swift */,
 				615014712824F04D00F294A9 /* Preview Content */,
 			);
 			path = iExpense;
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6150146E2824F04B00F294A9 /* ContentView.swift in Sources */,
+				6150148428253BF300F294A9 /* Expenses.swift in Sources */,
 				6150146C2824F04B00F294A9 /* iExpenseApp.swift in Sources */,
+				6150148628253F8E00F294A9 /* AddView.swift in Sources */,
+				6150148228253B3600F294A9 /* SingleExpense.swift in Sources */,
+				6150148028253B2D00F294A9 /* MainView.swift in Sources */,
+				6150148A2828AFA400F294A9 /* SheetController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
